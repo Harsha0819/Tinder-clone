@@ -12,6 +12,7 @@ function Chat({name,message,profilePic,timestamp}) {
             <div className="chat_details">
                 <h2>{name}</h2>
                 <p>{message}</p>
+                <p>name + message </p>
             </div>
                 <p className="chat_timestamp">{timestamp}</p>
             
